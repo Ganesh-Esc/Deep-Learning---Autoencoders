@@ -3,7 +3,7 @@
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
 [![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)](https://keras.io/)
 
-A hands-on lab exploring the implementation and application of autoencoders using Keras. We will cover shallow and deep architectures for tasks like image denoising and compression.
+A hands-on lab exploring the implementation and application of autoencoders using Keras. We will cover shallow and deep architectures for tasks like image denoising, compression, and de-blurring.
 
 ---
 
@@ -29,9 +29,12 @@ This lab is broken down into three main parts:
     * **Image Denoising:** Train an autoencoder to take a noisy image as input and output a clean, reconstructed version.
     * **Image Compression:** Use the output of the encoder layer to get a compressed representation of an image and visualize the quality of the reconstruction.
 
-3.  **Part 3: Building Deep Autoencoders**
-    * We will use the concepts from the previous sections to build more powerful, **deep autoencoders** (e.g., using convolutional layers) for higher-quality results.
+3.  **Part 3: Building Deep & Convolutional Autoencoders**
+    * We will use the concepts from the previous sections to build more powerful, **deep autoencoders**.
+    * We will then implement a **Convolutional Autoencoder (CAE)** and compare its performance against the deep (fully-connected) version.
+
+### Key Findings & Conclusion
+A key conclusion from this lab is the superior performance of **Convolutional Autoencoders** for image data. We demonstrate that because a CAE can effectively learn complex spatial features, it can be used to **de-blur blurred images** and represent features much more clearly than a standard deep autoencoder.
 
 ---
-
 
